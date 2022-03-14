@@ -1,0 +1,36 @@
+@import "common/mixin";
+@import "common/homepage";
+
+.header-main  .account-item{
+    display: none;
+}
+
+/* Custom footer */
+.ft-column{
+    .col-inner a{
+      display: block;
+    }
+}
+.ft-title{
+    color: #000;
+    font-weight: 800;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+#footer{
+    background-color: #262626;
+    padding: 100px 0px;
+    a,p{
+        color: #fff;
+    }
+}
+.absolute-footer{
+    display: none;
+}
+.footer-copyright{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fc0;
+}
+@import "common/responsive";

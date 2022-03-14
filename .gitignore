@@ -1,0 +1,16 @@
+wp-config.php
+**/node_modules
+**/package-lock.json
+**/Gruntfile.js
+**/.idea/
+**/*.zip
+**/*.rar
+**/cache
+
+
+/node_modules
+/package-lock.json
+.idea/
+
+
+**/uploads

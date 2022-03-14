@@ -1,0 +1,1 @@
+D:/vaithuhay/wp-content/plugins/query-monitor/wp-content/db.php
