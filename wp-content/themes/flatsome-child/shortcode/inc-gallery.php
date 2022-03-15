@@ -38,7 +38,7 @@
                                 $getCat->the_post();
                             ?>
                                 <div class="swiper-slide"> 
-                                    <div class="gallery-item">
+                                    <div class="gallery-items">
                                         <div class="card">
                                             <div class="cart-img">
                                                 <div class="gallery-img" >
@@ -76,7 +76,7 @@
                 <div class="swiper-button-prev preOrder-prev  flex flex-center"><span class="lnr lnr-chevron-left"></span></div>
                 <div class="btn-more white-bkg text-center">
                     <div class="btn-more-wrapper flex flex-center">
-                        KHÁM PHÁ THÊM  <span class="lnr lnr-arrow-right main-bkg"></span> 
+                        KHÁM PHÁ THÊM  <span class="lnr lnr-arrow-right main-bkg" style="margin-left:10px;background: #fff;padding: 10px;border-radius: 50%;"></span> 
                     </div>                                
                 </div>
         </div>

@@ -64,7 +64,8 @@
                                                 <a href="<?php the_permalink( );?>" >
                                                     <?php //if (has_post_thumbnail()): the_post_thumbnail();  endif;?>
                                                     <img src="https://product.hstatic.net/1000069970/product/ban_nang_ha_copy_a4d6f1a323ca4b4883b16a648e7d74e7_grande.jpg" alt="">
-                                                </a>
+                                                    <img class="image-overlay" src="https://theme.hstatic.net/1000069970/1000828363/14/pd_frame_3_img_large.png?v=140" alt="">
+                                                </a> 
                                                 <?php if( $salestatus == '1' ): ?>
                                                     <?php $product = wc_get_product( get_the_ID() ); /* get the WC_Product Object */ ?>
                                                     <div class="price"><?php  echo $product->get_price_html() ?  $product->get_price_html() : ''; ?></div>
@@ -93,11 +94,15 @@
                     
                     <!-- <div class="swiper-pagination"></div> -->
                 </div>
-                <div class="swiper-button-next preOrder-next preOrder-next<?php echo $swiperid; ?> flex flex-center "><span class="lnr lnr-chevron-right"></span></div>
-                <div class="swiper-button-prev preOrder-prev preOrder-prev<?php echo $swiperid; ?>  flex flex-center"><span class="lnr lnr-chevron-left"></span></div>
-                <div class="btn-more white-bkg text-center">
+                <div class="swiper-button-next preOrder-next preOrder-next<?php echo $swiperid; ?> flex flex-center ">
+                    <img src="https://theme.hstatic.net/1000069970/1000828363/14/ega-caret-right.png" alt="">
+                </div>
+                <div class="swiper-button-prev preOrder-prev preOrder-prev<?php echo $swiperid; ?>  flex flex-center">
+                    <img src="https://theme.hstatic.net/1000069970/1000828363/14/ega-caret-left.png" alt="">
+                </div>
+                <div class="btn-more main-bkg text-center">
                     <div class="btn-more-wrapper flex flex-center">
-                        KHÁM PHÁ THÊM  <span class="lnr lnr-arrow-right main-bkg"></span> 
+                        KHÁM PHÁ THÊM  <span class="lnr lnr-arrow-right white-bkg" style="margin-left:10px;background: #fff;padding: 10px;border-radius: 50%;"></span> 
                     </div>                                
                 </div>
         </div>
