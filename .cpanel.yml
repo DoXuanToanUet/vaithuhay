@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/doxuanto/vaithuhay.doxuantoan.com
+    - /bin/cp -R  * $DEPLOYPATH
+  
